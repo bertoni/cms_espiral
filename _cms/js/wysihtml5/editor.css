@@ -1,0 +1,70 @@
+.toolbar-wsyihtml5 html {
+  background: transparent;
+}
+
+.toolbar-wsyihtml5 body {
+  margin-bottom: 25px;
+  font-family: Helvetica, Arial, Verdana !important;
+}
+
+.wysihtml5 h1, .wysihtml5 h2 {
+  line-height: 1;
+  font-family: Rockwell, "Courier New", Courier, Georgia;
+  border-bottom: 1px solid #999;
+  font-weight: bold;
+  margin: 0 5px 25px 0;
+  padding: 0 0 8px;
+}
+
+.wysihtml5 h1 {
+  font-size: 27px;
+}
+
+.wysihtml5 h2 {
+  font-size: 18px;
+}
+
+.wysihtml5 p, .wysihtml5 li {
+  line-height: 1.5;
+}
+
+.wysihtml5 p {
+  padding-bottom: 25px;
+}
+
+.wysihtml5 a {
+  color: inherit;
+}
+
+.wysihtml5 strong,
+.wysihtml5 b {
+  font-weight: bold;
+}
+
+.wysihtml5 i,
+.wysihtml5 em {
+  font-style: italic;
+}
+
+.toolbar-wsyihtml5 li {
+  margin: 0;
+  padding-right: 20px;
+}
+
+.wysihtml5 ul {
+  list-style: outside disc !important;
+}
+
+.wysihtml5 ol {
+  list-style: outside decimal !important;
+}
+
+.toolbar-wsyihtml5 li img {
+  vertical-align: middle;
+  margin: 2px 5px 5px 0;
+}
+
+.fore-color ul li {
+	padding: 1px 3px !important;
+}
+

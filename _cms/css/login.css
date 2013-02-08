@@ -1,0 +1,118 @@
+@import 'temas/default.css';
+
+#usuario,#recuperar,#senha,#captcha_acessivel {
+    width: 280px;
+    box-shadow: inset 0px 2px 6px -5px #666;
+}
+#remember {
+    border: 0;
+}
+body {overflow: hidden;background-color:#f9f9f9}
+
+.hr{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #fff;
+    margin: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 317px;
+}
+
+.content img {
+    margin: 30px 0 0 10px;
+}
+
+.content .box {
+    margin: 10px 0;
+    padding: 10px;
+    width: 295px;
+	color: #999999;
+	background: #ffffff;
+	border: 1px solid #ccc;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    position:relative
+}
+
+.recuperar-container {
+    float:right;
+    margin-top:10px;
+}
+
+.info {
+    position:absolute;
+    bottom:-45px;
+    left:10px;
+    font-size:0.9em;
+}
+
+input {
+    background: #f9f9f9 !important;
+}
+
+input.button {
+    display: inline-block;
+    padding: 4px 15px 10px 15px !important;
+    color: #ffffff !important;
+    font-size: 1em !important;
+    text-decoration: none !important;
+    border: 1px solid #8162B0 !important;
+    background-color: #7352A2 !important;
+    vertical-align: top !important;
+    cursor: pointer !important;
+    border-radius:3px;
+    text-shadow: none !important;
+}
+input.button:hover {
+	border: 1px solid #d77011 !important;
+	background-color: #F58320 !important;
+	text-shadow: none !important;
+}
+
+.alert{
+    background-color: #FFFFE0;
+    border: 1px solid #E6DB55;
+    padding: 10px 20px 10px 10px;
+    margin: 5px auto 0 auto;
+    font-size: 0.9em;
+    position:relative;
+    border-radius: 3px;
+}
+
+.alert a {
+    color: #333;
+}
+
+.alert span {
+    display:block;
+    position: absolute;
+    top: 9px;
+    padding: 0px 5px 1px 5px;
+    text-align: center;
+    cursor: pointer;
+    right: 6px;
+    color: #E6DB55;
+}
+
+.alert.erro {
+    background-color: #FFEBE8;
+    border: 1px solid #CC0000;
+}
+.alert.erro span { color: #CC0000;}
+.alert.ok {
+    background-color: #E5FFE5;
+    border: 1px solid #65A565;
+}
+.alert.ok span { color: #65A565;}
+
+.versao {
+    text-align:center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    color: #888;
+    font-size: 11px;
+}
